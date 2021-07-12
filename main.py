@@ -198,7 +198,7 @@ class Bot(discord.Client):
             if answer == 3:
                 three_cross = ":x:"
             
-        self.embed=discord.Embed(title=f"**__LOCO TRIVIA__**\n\n**__Counter Answer__**\n**Answer :one: :- {lst_scores[0]}{one_check}\nAnswer :two: :- {lst_scores[1]}{two_check}\nAnswer :three: :- {lst_scores[2]}{three_check}**\n\n**__Crowd Result__** \n**Answer :- {one_check}{two_check}{three_check}\n__Crowd Wrong__** \n**Answer :- {wrong_answer}**",color=0x0ff14)
+        self.embed=discord.Embed(title=f"**__LOCO TRIVIA__**\n\n**__Counter Answer__**\n**Answer :one: :- {lst_scores[0]}{one_check}\nAnswer :two: :- {lst_scores[1]}{two_check}\nAnswer :three: :- {lst_scores[2]}{three_check}**",color=0x0ff14)
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/583675981466828801/685776310525755392/unnamed.png")
         self.embed.set_image(url="https://cdn.discordapp.com/attachments/625229957135597578/625246299947794432/SAVE_20190922_135432.gif")
         self.embed.set_footer(text="LOCO ANSWER | BOT")
